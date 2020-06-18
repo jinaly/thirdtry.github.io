@@ -1,0 +1,48 @@
+.bg
+{
+    height: 100vh;
+    width: 100vw;
+    background-image:url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg .overlay{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content h1{
+    text-shadow: 0px 0px 14px black;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+}
+li{
+    list-style-image: url('../img/2.jpg');
+    width:3px;
+    height: 5px;
+}
+img{
+    width: 100vh;
+    height: 90vw;
+}
+th{
+    font-size: 2em;
+}
